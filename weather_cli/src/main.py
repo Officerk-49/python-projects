@@ -18,6 +18,5 @@ def read_stdin():
 city = read_stdin()
 data = fetch_weather(city, api_key)
 
-print(data)
 display_weather(data)
 
